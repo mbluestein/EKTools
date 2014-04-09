@@ -7,6 +7,7 @@
 //
 
 #import "EKToolsExampleViewController.h"
+#import "CalendarTools/CalendarTools.h"
 #import "EKTools/EKTools.h"
 
 
@@ -23,14 +24,12 @@
 
 - (IBAction)eventsForOneWeekAction:(id)sender
 {
-    /*
     NSDate *oneWeekAhead = [CalendarTools dateForWeeks:1];
     NSArray *events = [[EKTools sharedEKTools] eventsFromNowUntil:oneWeekAhead];
     
     NSString *message = [NSString stringWithFormat:@"week ahead - retrieved: %d events", (int)events.count];
     NSLog(@"%@", message);
     self.resultsLabel.text = message;
-     */
 }
 
 

@@ -7,4 +7,7 @@
    <FileRef
       location = "group:EKToolsExample/EKToolsExample.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:CalendarTools/CalendarTools/CalendarTools.xcodeproj">
+   </FileRef>
 </Workspace>

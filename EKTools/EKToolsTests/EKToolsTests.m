@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "EKTools.h"
-//#import "CalendarTools/CalendarTools.h"
+#import "CalendarTools/CalendarTools.h"
 
 
 @interface EKToolsTests : XCTestCase
@@ -40,7 +40,6 @@
     XCTAssertNotNil(event, @"event should not be nil");
 }
 
-/*
 -(void)test_that_createEventWithLength_returns_an_event_that_starts_right_now_when_given_zero
 {
     NSDate *now = [NSDate date];
@@ -56,5 +55,5 @@
     XCTAssertTrue(eventCompsStart.hour == eventCompsEnd.hour, @"hour values should be equal");
     XCTAssertTrue(eventCompsStart.minute == eventCompsEnd.minute, @"minute values should be equal");
 }
-*/
+
 @end

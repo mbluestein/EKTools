@@ -22,6 +22,7 @@
 		9EE0280618F591C200967066 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0280418F591C200967066 /* InfoPlist.strings */; };
 		9EE0280818F591C200967066 /* EKToolsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0280718F591C200967066 /* EKToolsExampleTests.m */; };
 		9EE0281318F591FC00967066 /* libEKTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE0281218F591FC00967066 /* libEKTools.a */; };
+		9EE0281518F593B400967066 /* libCalendarTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE0281418F593B400967066 /* libCalendarTools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9EE0280518F591C200967066 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EE0280718F591C200967066 /* EKToolsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKToolsExampleTests.m; sourceTree = "<group>"; };
 		9EE0281218F591FC00967066 /* libEKTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEKTools.a; path = "../EKTools/build/Debug-iphoneos/libEKTools.a"; sourceTree = "<group>"; };
+		9EE0281418F593B400967066 /* libCalendarTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCalendarTools.a; path = "../CalendarTools/CalendarTools/build/Debug-iphoneos/libCalendarTools.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE0281518F593B400967066 /* libCalendarTools.a in Frameworks */,
 				9EE0281318F591FC00967066 /* libEKTools.a in Frameworks */,
 				9EE027DF18F591C200967066 /* CoreGraphics.framework in Frameworks */,
 				9EE027E118F591C200967066 /* UIKit.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		9EE027DB18F591C200967066 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9EE0281418F593B400967066 /* libCalendarTools.a */,
 				9EE0281218F591FC00967066 /* libEKTools.a */,
 				9EE027DC18F591C200967066 /* Foundation.framework */,
 				9EE027DE18F591C200967066 /* CoreGraphics.framework */,
@@ -395,6 +399,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/kermel/Code/iOS/projects/EKTools/EKTools/build/Debug-iphoneos",
+					"/Users/kermel/Code/iOS/projects/EKTools/CalendarTools/CalendarTools/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +418,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/kermel/Code/iOS/projects/EKTools/EKTools/build/Debug-iphoneos",
+					"/Users/kermel/Code/iOS/projects/EKTools/CalendarTools/CalendarTools/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
