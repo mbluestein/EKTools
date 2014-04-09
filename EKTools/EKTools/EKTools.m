@@ -7,7 +7,7 @@
 //
 
 #import "EKTools.h"
-//#import "CalendarTools/CalendarTools.h"
+#import "CalendarTools/CalendarTools.h"
 
 
 static EKTools *sharedInstance = nil;
@@ -61,7 +61,7 @@ static dispatch_once_t initializationLock;
 {
     EKEvent *event = [EKEvent eventWithEventStore:self.eventStore];
     event.startDate = [NSDate date];
-//    event.endDate = [CalendarTools dateByAddingMinutes:eventLength];
+    event.endDate = [CalendarTools dateByAddingMinutes:eventLength];
     event.calendar = self.eventStore.defaultCalendarForNewEvents;
     return event;
 }

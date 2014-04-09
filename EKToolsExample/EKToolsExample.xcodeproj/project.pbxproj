@@ -22,7 +22,6 @@
 		9EE0280618F591C200967066 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE0280418F591C200967066 /* InfoPlist.strings */; };
 		9EE0280818F591C200967066 /* EKToolsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE0280718F591C200967066 /* EKToolsExampleTests.m */; };
 		9EE0281318F591FC00967066 /* libEKTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE0281218F591FC00967066 /* libEKTools.a */; };
-		9EE0281518F593B400967066 /* libCalendarTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE0281418F593B400967066 /* libCalendarTools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE0281518F593B400967066 /* libCalendarTools.a in Frameworks */,
 				9EE0281318F591FC00967066 /* libEKTools.a in Frameworks */,
 				9EE027DF18F591C200967066 /* CoreGraphics.framework in Frameworks */,
 				9EE027E118F591C200967066 /* UIKit.framework in Frameworks */,
@@ -485,6 +483,7 @@
 				9EE0280D18F591C200967066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EE0280E18F591C200967066 /* Build configuration list for PBXNativeTarget "EKToolsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +492,7 @@
 				9EE0281018F591C200967066 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
