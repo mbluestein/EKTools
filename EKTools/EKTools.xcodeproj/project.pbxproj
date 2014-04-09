@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EE027AB18F591AF00967066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE027AA18F591AF00967066 /* Foundation.framework */; };
+		9EE027B018F591AF00967066 /* EKTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9EE027AF18F591AF00967066 /* EKTools.h */; };
+		9EE027B218F591AF00967066 /* EKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE027B118F591AF00967066 /* EKTools.m */; };
+		9EE027B918F591AF00967066 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE027B818F591AF00967066 /* XCTest.framework */; };
+		9EE027BA18F591AF00967066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE027AA18F591AF00967066 /* Foundation.framework */; };
+		9EE027BC18F591AF00967066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE027BB18F591AF00967066 /* UIKit.framework */; };
+		9EE027BF18F591AF00967066 /* libEKTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE027A718F591AF00967066 /* libEKTools.a */; };
+		9EE027C518F591AF00967066 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EE027C318F591AF00967066 /* InfoPlist.strings */; };
+		9EE027C718F591AF00967066 /* EKToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE027C618F591AF00967066 /* EKToolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EE027BD18F591AF00967066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE0279F18F591AF00967066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE027A618F591AF00967066;
+			remoteInfo = EKTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9EE027A518F591AF00967066 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9EE027B018F591AF00967066 /* EKTools.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9EE027A718F591AF00967066 /* libEKTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEKTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE027AA18F591AF00967066 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EE027AE18F591AF00967066 /* EKTools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKTools-Prefix.pch"; sourceTree = "<group>"; };
+		9EE027AF18F591AF00967066 /* EKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKTools.h; sourceTree = "<group>"; };
+		9EE027B118F591AF00967066 /* EKTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKTools.m; sourceTree = "<group>"; };
+		9EE027B718F591AF00967066 /* EKToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE027B818F591AF00967066 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9EE027BB18F591AF00967066 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9EE027C218F591AF00967066 /* EKToolsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKToolsTests-Info.plist"; sourceTree = "<group>"; };
+		9EE027C418F591AF00967066 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EE027C618F591AF00967066 /* EKToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKToolsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EE027A418F591AF00967066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE027AB18F591AF00967066 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE027B418F591AF00967066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE027B918F591AF00967066 /* XCTest.framework in Frameworks */,
+				9EE027BC18F591AF00967066 /* UIKit.framework in Frameworks */,
+				9EE027BA18F591AF00967066 /* Foundation.framework in Frameworks */,
+				9EE027BF18F591AF00967066 /* libEKTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EE0279E18F591AF00967066 = {
+			isa = PBXGroup;
+			children = (
+				9EE027AC18F591AF00967066 /* EKTools */,
+				9EE027C018F591AF00967066 /* EKToolsTests */,
+				9EE027A918F591AF00967066 /* Frameworks */,
+				9EE027A818F591AF00967066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE027A818F591AF00967066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE027A718F591AF00967066 /* libEKTools.a */,
+				9EE027B718F591AF00967066 /* EKToolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE027A918F591AF00967066 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE027AA18F591AF00967066 /* Foundation.framework */,
+				9EE027B818F591AF00967066 /* XCTest.framework */,
+				9EE027BB18F591AF00967066 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EE027AC18F591AF00967066 /* EKTools */ = {
+			isa = PBXGroup;
+			children = (
+				9EE027AF18F591AF00967066 /* EKTools.h */,
+				9EE027B118F591AF00967066 /* EKTools.m */,
+				9EE027AD18F591AF00967066 /* Supporting Files */,
+			);
+			path = EKTools;
+			sourceTree = "<group>";
+		};
+		9EE027AD18F591AF00967066 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EE027AE18F591AF00967066 /* EKTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EE027C018F591AF00967066 /* EKToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EE027C618F591AF00967066 /* EKToolsTests.m */,
+				9EE027C118F591AF00967066 /* Supporting Files */,
+			);
+			path = EKToolsTests;
+			sourceTree = "<group>";
+		};
+		9EE027C118F591AF00967066 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EE027C218F591AF00967066 /* EKToolsTests-Info.plist */,
+				9EE027C318F591AF00967066 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EE027A618F591AF00967066 /* EKTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE027CA18F591AF00967066 /* Build configuration list for PBXNativeTarget "EKTools" */;
+			buildPhases = (
+				9EE027A318F591AF00967066 /* Sources */,
+				9EE027A418F591AF00967066 /* Frameworks */,
+				9EE027A518F591AF00967066 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKTools;
+			productName = EKTools;
+			productReference = 9EE027A718F591AF00967066 /* libEKTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9EE027B618F591AF00967066 /* EKToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE027CD18F591AF00967066 /* Build configuration list for PBXNativeTarget "EKToolsTests" */;
+			buildPhases = (
+				9EE027B318F591AF00967066 /* Sources */,
+				9EE027B418F591AF00967066 /* Frameworks */,
+				9EE027B518F591AF00967066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE027BE18F591AF00967066 /* PBXTargetDependency */,
+			);
+			name = EKToolsTests;
+			productName = EKToolsTests;
+			productReference = 9EE027B718F591AF00967066 /* EKToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EE0279F18F591AF00967066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Keith Ermel";
+			};
+			buildConfigurationList = 9EE027A218F591AF00967066 /* Build configuration list for PBXProject "EKTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EE0279E18F591AF00967066;
+			productRefGroup = 9EE027A818F591AF00967066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE027A618F591AF00967066 /* EKTools */,
+				9EE027B618F591AF00967066 /* EKToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EE027B518F591AF00967066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE027C518F591AF00967066 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EE027A318F591AF00967066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE027B218F591AF00967066 /* EKTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE027B318F591AF00967066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE027C718F591AF00967066 /* EKToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EE027BE18F591AF00967066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE027A618F591AF00967066 /* EKTools */;
+			targetProxy = 9EE027BD18F591AF00967066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EE027C318F591AF00967066 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE027C418F591AF00967066 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EE027C818F591AF00967066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EE027C918F591AF00967066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE027CB18F591AF00967066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/EKTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKTools/EKTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9EE027CC18F591AF00967066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/EKTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKTools/EKTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9EE027CE18F591AF00967066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKTools/EKTools-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EKToolsTests/EKToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9EE027CF18F591AF00967066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKTools/EKTools-Prefix.pch";
+				INFOPLIST_FILE = "EKToolsTests/EKToolsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EE027A218F591AF00967066 /* Build configuration list for PBXProject "EKTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE027C818F591AF00967066 /* Debug */,
+				9EE027C918F591AF00967066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE027CA18F591AF00967066 /* Build configuration list for PBXNativeTarget "EKTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE027CB18F591AF00967066 /* Debug */,
+				9EE027CC18F591AF00967066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EE027CD18F591AF00967066 /* Build configuration list for PBXNativeTarget "EKToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE027CE18F591AF00967066 /* Debug */,
+				9EE027CF18F591AF00967066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EE0279F18F591AF00967066 /* Project object */;
+}
